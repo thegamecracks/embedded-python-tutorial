@@ -1,0 +1,13 @@
+# https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
+# https://setuptools.pypa.io/en/latest/userguide/index.html
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-app"
+version = "1.0.0"
+dependencies = ["requests"]
+
+[project.scripts]
+my_app = "my_app:main"
