@@ -32,4 +32,9 @@ Once done, the project directory can be copied elsewhere (including another driv
 requiring the user to execute the script from the terminal with the project root as the
 current working directory.
 
+## Recommendations
+
+Coincidentally this project uses the same techniques as [PyDeploy](https://github.com/syegulalp/pydeploy/),
+a purpose-built tool that takes advantage of embedded Python distributions.
+
 [PyInstaller]: https://pyinstaller.org/en/stable/
